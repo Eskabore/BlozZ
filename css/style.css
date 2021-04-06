@@ -1,3 +1,10 @@
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
 :root {
 
     /* Theme Colors */
@@ -9,13 +16,6 @@
 
     /* Gradient Color */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-}
-
-html, body {
-    margin: 0%;
-    box-sizing: border-box;
-    overflow: hidden;
-    font-family: 'Roboto', sans-serif;
 }
 
 /*----Global Classes----*/
@@ -41,8 +41,9 @@ ul {
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 100vh;
+    min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in;
 }
 
 .nav .nav-menu {
@@ -63,7 +64,7 @@ ul {
     padding: 1.7rem 0;
 }
 
-.nav .toogle-collapse .toogle-icons i {
+.nav .toggle-collapse .toggle-icons i {
     font-size: 1.4rem;
     color: var(--text-grey);
 }
