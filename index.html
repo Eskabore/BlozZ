@@ -1,70 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogger</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script>
-    $(document).ready(function() {
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BlogzZ</title>
 
-    $nav = $('.nav');
-    $toggleCollapse = $('.toggle-collapse');
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
 
-    /* Click Event on Toggle Menu */
 
-    $toggleCollapse.click(function() {
-        $nav.toggleClass('collapse');
-    })
-    });
-    </script>
-    <script src="https://kit.fontawesome.com/aef887196f.js" crossorigin="anonymous">
-    </script>
-    
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css">
+
 </head>
+
 <body>
 
-    <!--Navigation-->
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
 
     <nav class="nav">
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="#" class="text-grey">Blogger</a>
+                <a href="#" class="text-gray">BlogzZ</a>
             </div>
             <div class="toggle-collapse">
                 <div class="toggle-icons">
-                    <i class="fas fa-bars fa-2x"></i>
+                    <i class="fas fa-bars"></i>
                 </div>
             </div>
             <div>
                 <ul class="nav-items">
-                    <li class="nav-links">
+                    <li class="nav-link">
                         <a href="#">Home</a>
                     </li>
-                    <li class="nav-links">
+                    <li class="nav-link">
                         <a href="#">Category</a>
                     </li>
-                    <li class="nav-links">
+                    <li class="nav-link">
                         <a href="#">Archive</a>
                     </li>
-                    <li class="nav-links">
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="nav-link">
                         <a href="#">Contact Us</a>
                     </li>
                 </ul>
             </div>
             <div class="social text-gray">
-                <a href="#"><i class="fab fa-facebook-square fa-2x" ></i></a>
-                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </nav>
-    <!----x----Navigation----x---->
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
     <!----------------------------- Main Site Section ------------------------------>
 
@@ -410,7 +411,7 @@
         </div>
         <div class="rights flex-row">
             <h4 class="text-gray">
-                Copyright ©2021 DiFfrenzZ | All rights reserved 
+                Copyright ©2019 All rights reserved | made by
                 <a href="www.youtube.com/c/dailytuition" target="_black">Daily Tuition <i class="fab fa-youtube"></i>
                     Channel</a>
             </h4>
@@ -421,5 +422,18 @@
     </footer>
 
     <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery-3.6.0.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
