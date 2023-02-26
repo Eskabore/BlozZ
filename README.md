@@ -11,6 +11,7 @@ You can check out a live demo of BlogzZ [here](https://example.com/).
 <img src="https://user-images.githubusercontent.com/45074124/221444196-f9e71690-ff9f-4fc6-a8eb-e7f96d7c0afa.png" width="500px" height="auto">
 
 ### Body
+![blogzz-mini](https://user-images.githubusercontent.com/45074124/221445072-830cf86b-761f-4963-92a0-c7d0cc4d72b5.gif)
 
 
 ### Footer 
