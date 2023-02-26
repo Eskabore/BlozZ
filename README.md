@@ -1,10 +1,20 @@
 # BlogzZ
 
+
 BlogzZ is a dynamic and complex website built with HTML, CSS, and JavaScript. It also uses various libraries and tools such as jQuery, aos.js, owl-carousel, npm classlist, and lodash. BlogzZ is a blogging platform that allows users to create, edit, and publish their blog posts.
 
 ## Demo
 
 You can check out a live demo of BlogzZ [here](https://example.com/).
+
+### Hero
+<img src="https://user-images.githubusercontent.com/45074124/221444196-f9e71690-ff9f-4fc6-a8eb-e7f96d7c0afa.png" width="500px" height="auto">
+
+### Body
+
+
+### Footer 
+<img src="https://user-images.githubusercontent.com/45074124/221444127-fb8d15ae-9f71-4720-8a5a-4ecdd1ae324d.png" width="500px" height="auto">
 
 ## Getting Started
 
