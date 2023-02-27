@@ -5,7 +5,7 @@ BlogzZ is a dynamic and complex website built with HTML, CSS, and JavaScript. It
 
 ## Demo
 
-You can check out a live demo of BlogzZ [here](https://example.com/).
+You can check out a live demo of **BlogzZ** **[here](https://web-blogzz.netlify.app/)**.
 
 ### Hero
 <img src="https://user-images.githubusercontent.com/45074124/221444196-f9e71690-ff9f-4fc6-a8eb-e7f96d7c0afa.png" width="500px" height="auto">
