@@ -1,5 +1,13 @@
 {
   "dependencies": {
     "aos": "^2.3.4"
-  }
+  },
+  "name": "BlogzZ",
+  "version": "1.0.0",
+  "description": "A  blog with complex structure  build using  HTML,CSS and JS.",
+  "main": "index.html",
+  "repository": "https://github.com/Eskabore/BlozZ.git",
+  "author": "Jean-Luc KABORE-TURQUIN <turquinjl@gmail.com>",
+  "license": "MIT",
+  "private": false
 }
